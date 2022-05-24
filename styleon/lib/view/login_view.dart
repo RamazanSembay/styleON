@@ -1,12 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:provider/provider.dart';
 import 'package:styleon/view/register_view.dart';
 
-class LoginView extends StatelessWidget {
-  const LoginView({Key? key}) : super(key: key);
+import '../provider/login_provider.dart';
+
+class LoginView extends StatefulWidget {
 
   @override
+  State<LoginView> createState() => _LoginViewState();
+}
+
+TextEditingController email = TextEditingController();
+TextEditingController password = TextEditingController();
+String p =
+    r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
+RegExp regExp = new RegExp(p);
+bool obserText = true;
+
+class _LoginViewState extends State<LoginView> {
+  @override
   Widget build(BuildContext context) {
+    LoginProvider loginProvider = Provider.of<LoginProvider>(context);
+     
     return Scaffold(
       backgroundColor: Colors.white,
       body: Container(

@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:styleon/view/login_view.dart';
 
 class RegisterView extends StatelessWidget {
-  const RegisterView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

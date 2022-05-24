@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "554924440252",
+    "project_id": "styleon-72cb9",
+    "storage_bucket": "styleon-72cb9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554924440252:android:bf80de31302e3e34c46eb9",
+        "android_client_info": {
+          "package_name": "com.example.styleon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554924440252-ttulbd2d4cnll59puv81gp56vs74rhhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiCTRzQw3REJtiPW-rFw1jWQkw5nJ8F30"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554924440252-ttulbd2d4cnll59puv81gp56vs74rhhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

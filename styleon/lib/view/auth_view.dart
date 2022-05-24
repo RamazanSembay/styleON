@@ -4,7 +4,6 @@ import 'package:styleon/view/login_view.dart';
 import 'package:styleon/view/register_view.dart';
 
 class AuthView extends StatelessWidget {
-  const AuthView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
